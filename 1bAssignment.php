@@ -1,25 +1,19 @@
 <?php
-	$a=5;
-	echo "a= $a<br>";
+	$a=50;
+	echo "a = 50 : $a<br>";
 
-	$b=10;
-	$b += 20;
-	echo "b= $b<br>";
+	$a += 20;
+	echo "a += 20 : $a<br>";
 
-	$c=15;
-	$c -= 5;
-	echo "c= $c<br>";
+	$a -= 5;
+	echo "a -= 5 : $a<br>";
 
-	$d=20;
-	$d*=2;
-	echo "d= $d<br>";
+	$a*=2;
+	echo "a *= 2 : $a<br>";
  
-	$e=25;
-	$e /= 5;
+	$a /= 5;
+	echo "a /= 5 : $a<br>";
 
-	echo "e= $e<br>";
-
-	$f=30;
-	$f %= 4;
-	echo "f= $f";
+	$a %= 4;
+	echo "a %= 4 : $a";
 ?>

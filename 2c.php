@@ -15,7 +15,7 @@
 		$count = 0;
 		for ($i = 0; $i < myStrlen($sen); $i++)
 		{
-			if ($sen[$i] == ' ' || $i == strlen($sen)-1)
+			if ($sen[$i] == ' ' || $i == myStrlen($sen)-1)
 				$count++;
 		}
 		return $count;
