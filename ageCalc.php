@@ -75,9 +75,7 @@
         .submit
         {
             text-align: center;
-            margin-left: 470px;
-            margin-top: 10px;
-            margin-bottom: 10px;
+            margin: 10px 0 10px 470px;
             width: 140px;
             height: 40px;
             font-size: 20px;
