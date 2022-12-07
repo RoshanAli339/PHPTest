@@ -3,7 +3,7 @@
     $yr=0;
     $mon=0;
 
-    if(isset($_POST['d1']) && isset($_POST['d2']))
+    if(isset($_POST['d1']) && isset($_POST['d2']) && isset($_POST["enter"]))
     {
 
         $d1=$_POST['d1'];
@@ -105,7 +105,7 @@
                 <td class="inputs"><input type="text" name="d2" class="boxes"></td>
             </tr>
             <tr>
-                <td colspan="2"><input class="submit" type="submit" value="Calculate"></td>
+                <td colspan="2"><input class="submit" type="submit" name="enter" value="Calculate"></td>
             </tr>
             <tr>
                 <td class="inputs">Your age:</td>
