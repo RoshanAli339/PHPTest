@@ -1,0 +1,79 @@
+<html>
+<head>
+	<style>
+		div
+		{
+			font-family: 'Century Gothic', sans-serif;
+		}
+		.greet
+		{
+			margin-left: 24%;
+			width: 50%;
+			color: blue;
+			font-size: 30px;
+			border-color: green;
+			border-style: double;
+			text-align: center;
+		}
+		.input
+		{
+			width: 40%;
+			margin-top: 50px;
+			margin-left: 30%;
+			border-style: dashed;
+			text-align: center;
+		}
+		.input p
+		{
+			font-weight: 50px;
+			font-size: 30px;
+		}
+
+		.input .box
+		{
+			font-size: 20px;
+			border-style: none;
+			box-shadow: 0px 2px 1px 0px #DDD;
+  			box-sizing: border-box;
+			outline: none;
+			width: 40%;
+			font-family: 'Century Gothic', sans-serif;
+			text-align: center;
+			margin-top:20px;
+			border-bottom: 1px solid black;
+			transition: 100ms ease-in;
+		}
+
+		.input .submit
+		{
+			color: aqua;
+			background-color: black;
+			height: 30px;
+			width: 100px;
+			border-radius: 5px;
+			transition: 100ms ease;
+		}
+
+		.input .box:focus
+		{
+			border-bottom: 3px solid blue;
+		}
+
+		.input .submit:hover
+		{
+			background-color: aliceblue;
+			color: black;
+		}
+	</style>
+</head>
+<body>
+	<div class="greet"><h1>GREETING TEXT</h1></div>
+	<div class = "input">
+		<form method="POST" action = "Gre.php">
+			<p>Enter the name: <br>
+			<input class="box" name = "Name" type = "text" palceholder="Your name"></p><br>
+			<input class="submit" type = "submit" value = "Submit">
+		</form>
+	</div>
+</body>
+</html>
