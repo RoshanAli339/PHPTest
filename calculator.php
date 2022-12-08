@@ -60,6 +60,14 @@
             outline: none;
             text-align: center;
         }
+        .submit
+        {
+            background-color: aliceblue;
+            width: 50%;
+            color: darkred;
+            font-size: 15px;
+            border-radius: 5px;
+        }
     </style>
 </head>
 
@@ -93,7 +101,7 @@
             </tr>
 
             <tr>
-                <td><input class="" type="submit" value="RESULT" name="display"></td>
+                <td><input class="submit" type="submit" value="RESULT" name="display"></td>
                 <td><input class="inputs" type="text" value="<?php echo @$res; ?>" readonly="true" >
                 </td>
             </tr>
